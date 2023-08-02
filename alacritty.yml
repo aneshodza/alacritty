@@ -1,0 +1,13 @@
+# alacritty.yml
+
+# Font configuration (using JetBrainsMono Nerd Font)
+font:
+  normal:
+    family: JetBrainsMono Nerd Font
+    style: Regular
+
+# Default command to execute when Alacritty starts
+shell:
+  program: /usr/bin/tmux  # Replace with the path to your tmux binary
+  args:
+    - new-session
